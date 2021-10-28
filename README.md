@@ -3,13 +3,14 @@ A simple web application that suggests which crypto exchange to buy and/or sell 
 
 ### Instructions to build and run:  
 
-1. Building Frontend (React App)     
+1. Building Frontend (React App - version: 17.0.2)     
 * Head to cryptoexchanges folder   
 * Run `npm install` to install all the necessary packages as per the specification   
 * Run `npm run build` to build static files to render   
 
-2. Building Backend (Node.js)      
-* In the root folder, run `npm install` to install server packages as per the specificaion   
+2. Building Backend (Node.js - version: 15.8.0)      
+* In the root folder, run `npm install` to install server packages as per the specificaion
+* Create a `.env` file in the root folder and specify `PORT={port}`, example: `PORT:3001`   
 * If you wish to run the server without interruption then proceed with `forever index.js` command.   
 * If you wish to run the server once, then proceed with `node index.js` command   
 
